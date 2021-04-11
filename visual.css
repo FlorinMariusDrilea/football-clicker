@@ -1,0 +1,115 @@
+body {
+    background-image: url(images/background.jpg);
+}
+
+.sectionLeft {
+    float:left;
+    width: 80%;
+}
+
+.sectionRight {
+    float:right;
+    width: 20%;
+}
+
+.scoreSection {
+    background-color: rgba(102, 119, 119, 0.425);
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.clickerContainer img {
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+img.click-img:hover { transform: scale(1.10); }
+img.click-img:active { transform: scale(0.99); }
+
+.shopButton {
+    background-color: #b5b5b5;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.shopButton:hover {
+    background-color: #c7c7c7;
+    transition: all .2s ease-in-out;
+}
+
+.shopButton #image {
+    width: 25%;
+}
+
+.shopButton img {
+    height: 64px;
+    width: 64px;
+    margin-left:4px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+
+.shopButton #nameAndCost p {
+    margin: 0px;
+    width: 60%;
+}
+
+.shopButton #nameAndCost p:first-of-type {
+    font-size: 24px;   
+}
+
+.shopButton #amount {
+    font-size: 48px;
+    color: #595959;
+    font-family: roboto;
+    width: 15%;
+}
+
+.unselectable {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.sectionFooter {
+    margin-top: 30%;
+    margin-bottom: 0%;
+    margin-left:38%;
+    background-color: rgba(128, 223, 90, 0.795);
+    padding: 10px;
+    width: 20%;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sectionFooter #footerButton {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40%;
+}
+
+#upgradeContainer img{
+    height: 64px;
+    width: 64px;
+}
+
+#achievementContainer img {
+    height: 64px;
+    width: 64px;
+}

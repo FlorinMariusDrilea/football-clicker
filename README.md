@@ -1,1 +1,1 @@
-# football-clicker
+# football-manager-clicker

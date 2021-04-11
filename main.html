@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="visual.css">
+    <title>Football Manager Clicker</title>
+</head>
+<body>
+    <div class = "sectionLeft">
+        <center>
+            <div class = "scoreSection unselectable">
+                <span id = "score">0</span> balls<br>
+                <span id = "scorePerSecond">0</span> balls per second
+            </div>
+            <br>
+            <div class = "clickerContainer">
+                <img class = "click-img" src = "images/ball.jpg" height="128px" width="128px" id="clicker">
+            </div>
+        </center>
+        <div class = "sectionFooter">
+            <h5>Football Clicker</h5>
+            <button id = "footerButton" onclick="resetGame();">Reset Game</button>
+        </div>
+    </div>
+
+    <div class = "sectionRight">
+        <div id = "upgradeContainer"></div>
+        <div id = "shopContainer"></div>
+        <div id = "achievementContainer"></div>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
